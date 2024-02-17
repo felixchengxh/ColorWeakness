@@ -6,14 +6,14 @@ from utils.utils import color_block_square, convert_bgr2color, group_color, put_
 
 parser = argparse.ArgumentParser(description='Demo of argparse')
 parser.add_argument('--input_image', default='./Figs/IMG_0283.JPG')
-parser.add_argument('--output_image', default='./output/')
+parser.add_argument('--output_dir', default='./output/')
 parser.add_argument('--size', type=int, default='100')
 
 
 if __name__ == "__main__":
     args = parser.parse_args()
     input_path = args.input_image
-    output_path = args.output_image
+    output_path = args.output_dir
     if not os.path.exists(output_path):
         os.mkdir(output_path)
     size = args.size
