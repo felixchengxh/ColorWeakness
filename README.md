@@ -1,5 +1,5 @@
 # ColorWeakness
-Assisting people with weak colors in distinguishing colors. 
+Assist color vision deficient individuals in distinguishing colors. 
 ## Example of using code
 
 ### Process single image(.jpg for default)
