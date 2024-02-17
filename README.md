@@ -12,9 +12,13 @@ Make sure you have downloaded following packages in your development environment
 
 ## Example of using code
 First, clone this project to your device. Enter the following command at the terminal:  
+
 `git clone https://github.com/felixchengxh/ColorWeakness.git`  
+
 Then enter directory of this project:  
-`cd ColorWeakness`
+
+`cd ColorWeakness`  
+
 ### Process single image(.jpg for default)
 
 `python image_show_color.py --input_image=${input_image_path}`  
