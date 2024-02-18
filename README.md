@@ -80,7 +80,7 @@ python scripts/Image2Video.py  --output_video={output_video_path}
 ## Contact 
 
 Should you have any question, please feel free to contact me via email:  
-`felix1653527@gmail.com`  
 `2030660534@qq.com`  
+`felix1653527@gmail.com`  
 `chengxianhui@senseauto.com`  
 `chengxianhui20@fudan.edu.cn`
