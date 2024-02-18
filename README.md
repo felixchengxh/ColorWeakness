@@ -74,7 +74,8 @@ python scripts/Image2Video.py  --output_video={output_video_path}
 #### Optional
 
 `--input_dir`: Path of processed results.(Recommended not to change)  
-`--output_video`: Path of output .mp4 file.
+`--output_video`: Path of output .mp4 file.  
+`--FPS`: FPS of output video.
 
 ## Contact 
 
