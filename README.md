@@ -2,7 +2,7 @@
 Assist color vision deficient individuals in distinguishing colors. 
 
 ## Dependencies
-Make sure you have downloaded following packages in your development environment.  
+Make sure you have installed following packages in your development environment.  
 - os
 - time
 - glob
@@ -13,17 +13,23 @@ Make sure you have downloaded following packages in your development environment
 ## Example of using code
 First, clone this project to your device. Enter the following command at the terminal:  
 
-`git clone https://github.com/felixchengxh/ColorWeakness.git`  
+```shell
+git clone https://github.com/felixchengxh/ColorWeakness.git
+```  
 
-Then enter directory of this project:  
+Then enter the directory of project:  
 
-`cd ColorWeakness`  
+```shell
+cd ColorWeakness
+```  
 
 ### Process single image(.jpg for default)
 
-`python image_show_color.py --input_image=${input_image_path}`  
+```shell
+python image_show_color.py --input_image=${input_image_path}
+```  
 #### Optional
-`--input_image`: Path of input .jpg files.  
+`--input_image`: Path of input .jpg file.  
 `--output_dir`: Path of output directory.  
 `--size`: Pixel size of color recognition regions. 
 
@@ -31,25 +37,28 @@ Then enter directory of this project:
 
 #### Precheck
 
-Please make sure you have deleted these directories everytime before launching the code:  
+Please make sure you have deleted following directories everytime before launching the code:  
 
-`./tmpVideo2Image`  
-`./tmpFramesResult`  
+`./tmpVideo2Image`, `./tmpFramesResult`  
 
 Those directories will be generated automatically just for temporary usage, remained files sometimes cause error.
 
 ### 1. Split video to images
 
-`python scripts/Video2Image.py --input_video=${input_video_path`  
+```shell
+python scripts/Video2Image.py --input_video=${input_video_path
+```  
 
 #### Optional
 
-`--input_video`: Path of input .mp4 files.  
+`--input_video`: Path of input .mp4 file.  
 `--output_dir`: Path to save splited images.(Recommended not to change)  
 
 ### 2. Process each frame of video
 
-`python video_show_color.py --size=${pixel_width}`
+```shell
+python video_show_color.py --size=${pixel_width}
+```
 
 #### Optional
 `--input_dir`: Path of splited images.(Recommended not to change)  
@@ -58,7 +67,9 @@ Those directories will be generated automatically just for temporary usage, rema
 
 ### 3. Covert results to video
 
-`python scripts/Image2Video.py  --output_video={output_video_path}`
+```shell
+python scripts/Image2Video.py  --output_video={output_video_path}
+```
 
 #### Optional
 
