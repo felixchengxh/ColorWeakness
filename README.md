@@ -1,6 +1,6 @@
 # ColorWeakness
 Assist color vision deficient individuals in distinguishing colors. 
-
+![Illustration](https://github.com/felixchengxh/ColorWeakness/blob/main/Figs/illustration.jpg)
 ## Dependencies
 Make sure you have installed following packages in your development environment.  
 - os
@@ -10,7 +10,7 @@ Make sure you have installed following packages in your development environment.
 - argparse
 - opencv-python
 
-## Example of using code
+## Get Started
 First, clone this project to your device. Enter the following command at the terminal:  
 
 ```shell
@@ -76,3 +76,9 @@ python scripts/Image2Video.py  --output_video={output_video_path}
 `--input_dir`: Path of processed results.(Recommended not to change)  
 `--output_video`: Path of output .mp4 file.
 
+## Contact 
+
+Should you have any question, please feel free to contact me via email:  
+`felix1653527@gmail.com`  
+`2030660534@qq.com`
+`chengxianhui@senseauto.com`  
