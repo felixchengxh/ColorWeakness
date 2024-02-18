@@ -46,7 +46,7 @@ Those directories will be generated automatically just for temporary usage, rema
 ### 1. Split video to images
 
 ```shell
-python scripts/Video2Image.py --input_video=${input_video_path
+python scripts/Video2Image.py --input_video=${input_video_path}
 ```  
 
 #### Optional
